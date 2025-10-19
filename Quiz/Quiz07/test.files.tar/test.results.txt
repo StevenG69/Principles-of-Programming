@@ -1,0 +1,38 @@
+Test 1_1 ... passed	0.0625
+Test 1_2 ... passed	0.125
+Test 2_1 ... passed	0.0625
+Test 2_2 ... passed	0.125
+Test 3_1 ... passed	0.0625
+Test 3_2 ... failed	0
+Test 4_1 ... passed	0.0625
+Test 4_2 ... passed	0.125
+Test 5_1 ... passed	0.0625
+Test 5_2 ... passed	0.125
+Test 6_1 ... passed	0.0625
+Test 6_2 ... passed	0.125
+Test 7_1 ... passed	0.0625
+Test 7_2 ... passed	0.125
+Test 8_1 ... passed	0.0625
+Test 8_2 ... passed	0.125
+Test 9_1 ... passed	0.0625
+Test 9_2 ... passed	0.125
+Test 10_1 ... passed	0.0625
+Test 10_2 ... passed	0.125
+Test 11_1 ... passed	0.0625
+Test 11_2 ... passed	0.125
+Test 12_1 ... passed	0.0625
+Test 12_2 ... passed	0.125
+Test 13_1 ... passed	0.0625
+Test 13_2 ... passed	0.125
+Test 14_1 ... passed	0.0625
+Test 14_2 ... passed	0.125
+Test 15_1 ... passed	0.0625
+Test 15_2 ... passed	0.125
+Test 16_1 ... passed	0.0625
+Test 16_2 ... passed	0.125
+
+Penalty       	
+
+Bonus         	
+
+Total mark    	2.8750

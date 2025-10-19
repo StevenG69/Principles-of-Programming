@@ -1,0 +1,563 @@
+TEST 1 BEGIN
+$ echo 123\n123~123\n | python3 quiz_3.py
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+       123
+
+Incorrect input, try again!
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+       123~123
+
+123 is the code point of a named character.
+
+Enter a string: 
+
+Here are those of the characters under consideration
+  whose name starts with :
+LEFT CURLY BRACKET: {
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 30~29\n30~29\n30~30\n | python3 quiz_3.py
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+       30~29
+
+Incorrect input, try again!
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+       30~29
+
+Incorrect input, try again!
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+       30~30
+
+30 is not the code point of a named character.
+
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 40~52 A\n40~52_A\n40~52\n | python3 quiz_3.py
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+       40~52 A
+
+Incorrect input, try again!
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+       40~52_A
+
+Incorrect input, try again!
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+       40~52
+
+All numbers between 40 and 52
+  are code points of named characters.
+
+Enter a string: 
+
+Here are those of the characters under consideration
+  whose name starts with :
+ASTERISK         : *
+COMMA            : ,
+DIGIT FOUR       : 4
+DIGIT ONE        : 1
+DIGIT THREE      : 3
+DIGIT TWO        : 2
+DIGIT ZERO       : 0
+FULL STOP        : .
+HYPHEN-MINUS     : -
+LEFT PARENTHESIS : (
+PLUS SIGN        : +
+RIGHT PARENTHESIS: )
+SOLIDUS          : /
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 0~1114112\n-1~100\n0~100\nDIG\n | python3 quiz_3.py
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+       0~1114112
+
+Incorrect input, try again!
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+       -1~100
+
+Incorrect input, try again!
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+       0~100
+
+Amongst the numbers between 0 and 100,
+  68.32% are code points of named characters.
+
+Enter a string: DIG
+
+Here are those of the characters under consideration
+  whose name starts with DIG:
+DIGIT EIGHT: 8
+DIGIT FIVE : 5
+DIGIT FOUR : 4
+DIGIT NINE : 9
+DIGIT ONE  : 1
+DIGIT SEVEN: 7
+DIGIT SIX  : 6
+DIGIT THREE: 3
+DIGIT TWO  : 2
+DIGIT ZERO : 0
+
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 345~340\n340~345\nLATIN SM\n | python3 quiz_3.py
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+       345~340
+
+Incorrect input, try again!
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+       340~345
+
+All numbers between 340 and 345
+  are code points of named characters.
+
+Enter a string: LATIN SM
+
+Here are those of the characters under consideration
+  whose name starts with LATIN SM:
+LATIN SMALL LETTER R WITH ACUTE  : ŕ
+LATIN SMALL LETTER R WITH CARON  : ř
+LATIN SMALL LETTER R WITH CEDILLA: ŗ
+
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 1  ~  1114111\nDA\n | python3 quiz_3.py
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+       1  ~  1114111
+
+Amongst the numbers between 1 and 1114111,
+  12.84% are code points of named characters.
+
+Enter a string: DA
+
+Here are those of the characters under consideration
+  whose name starts with DA:
+DAGGER                                 : †
+DAGGER KNIFE                           : 🗡
+DAGGER WITH LEFT GUARD                 : ⸶
+DAGGER WITH RIGHT GUARD                : ⸷
+DALET SYMBOL                           : ℸ
+DANCER                                 : 💃
+DANGO                                  : 🍡
+DARK SHADE                             : ▓
+DARK SUNGLASSES                        : 🕶
+DASH SYMBOL                            : 💨
+DASH WITH LEFT UPTURN                  : ⹃
+DASHED LOW LINE                        : ﹍
+DASHED OVERLINE                        : ﹉
+DASHED TRIANGLE-HEADED RIGHTWARDS ARROW: ➟
+
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 1256 ~ 1300  ~ 1400\n  1256 ~ 1300  \nCYRILLIC CAPITAL\n | python3 quiz_3.py
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+       1256 ~ 1300  ~ 1400
+
+Incorrect input, try again!
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+         1256 ~ 1300  
+
+All numbers between 1256 and 1300
+  are code points of named characters.
+
+Enter a string: CYRILLIC CAPITAL
+
+Here are those of the characters under consideration
+  whose name starts with CYRILLIC CAPITAL:
+CYRILLIC CAPITAL LETTER BARRED O                : Ө
+CYRILLIC CAPITAL LETTER BARRED O WITH DIAERESIS : Ӫ
+CYRILLIC CAPITAL LETTER CHE WITH DIAERESIS      : Ӵ
+CYRILLIC CAPITAL LETTER E WITH DIAERESIS        : Ӭ
+CYRILLIC CAPITAL LETTER EL WITH HOOK            : Ԓ
+CYRILLIC CAPITAL LETTER GHE WITH DESCENDER      : Ӷ
+CYRILLIC CAPITAL LETTER GHE WITH STROKE AND HOOK: Ӻ
+CYRILLIC CAPITAL LETTER HA WITH HOOK            : Ӽ
+CYRILLIC CAPITAL LETTER HA WITH STROKE          : Ӿ
+CYRILLIC CAPITAL LETTER KOMI DE                 : Ԁ
+CYRILLIC CAPITAL LETTER KOMI DJE                : Ԃ
+CYRILLIC CAPITAL LETTER KOMI DZJE               : Ԇ
+CYRILLIC CAPITAL LETTER KOMI LJE                : Ԉ
+CYRILLIC CAPITAL LETTER KOMI NJE                : Ԋ
+CYRILLIC CAPITAL LETTER KOMI SJE                : Ԍ
+CYRILLIC CAPITAL LETTER KOMI TJE                : Ԏ
+CYRILLIC CAPITAL LETTER KOMI ZJE                : Ԅ
+CYRILLIC CAPITAL LETTER LHA                     : Ԕ
+CYRILLIC CAPITAL LETTER REVERSED ZE             : Ԑ
+CYRILLIC CAPITAL LETTER U WITH DIAERESIS        : Ӱ
+CYRILLIC CAPITAL LETTER U WITH DOUBLE ACUTE     : Ӳ
+CYRILLIC CAPITAL LETTER U WITH MACRON           : Ӯ
+CYRILLIC CAPITAL LETTER YERU WITH DIAERESIS     : Ӹ
+
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo   25800 ~~ 25900\n 25800 ~ 25000\n  25800 ~  25900 \nCJK UNIFIED IDEOGRAPH-651\n | python3 quiz_3.py
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+         25800 ~~ 25900
+
+Incorrect input, try again!
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+        25800 ~ 25000
+
+Incorrect input, try again!
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+         25800 ~  25900 
+
+All numbers between 25800 and 25900
+  are code points of named characters.
+
+Enter a string: CJK UNIFIED IDEOGRAPH-651
+
+Here are those of the characters under consideration
+  whose name starts with CJK UNIFIED IDEOGRAPH-651:
+CJK UNIFIED IDEOGRAPH-6510: 攐
+CJK UNIFIED IDEOGRAPH-6511: 攑
+CJK UNIFIED IDEOGRAPH-6512: 攒
+CJK UNIFIED IDEOGRAPH-6513: 攓
+CJK UNIFIED IDEOGRAPH-6514: 攔
+CJK UNIFIED IDEOGRAPH-6515: 攕
+CJK UNIFIED IDEOGRAPH-6516: 攖
+CJK UNIFIED IDEOGRAPH-6517: 攗
+CJK UNIFIED IDEOGRAPH-6518: 攘
+CJK UNIFIED IDEOGRAPH-6519: 攙
+CJK UNIFIED IDEOGRAPH-651A: 攚
+CJK UNIFIED IDEOGRAPH-651B: 攛
+CJK UNIFIED IDEOGRAPH-651C: 攜
+CJK UNIFIED IDEOGRAPH-651D: 攝
+CJK UNIFIED IDEOGRAPH-651E: 攞
+CJK UNIFIED IDEOGRAPH-651F: 攟
+
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo   123456~     123489\n | python3 quiz_3.py
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+         123456~     123489
+
+No number between 123456 and 123489
+  is the code point of a named character.
+
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo        98765     ~987913\nZE\n | python3 quiz_3.py
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+              98765     ~987913
+
+Amongst the numbers between 98765 and 987913,
+  8.83% are code points of named characters.
+
+Enter a string: ZE
+
+Here are those of the characters under consideration
+  whose name starts with ZE:
+ZEBRA FACE: 🦓
+
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo   10000    ~    10050\nSIX\n  | python3 quiz_3.py
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+         10000    ~    10050
+
+All numbers between 10000 and 10050
+  are code points of named characters.
+
+Enter a string: SIX
+
+Here are those of the characters under consideration
+  whose name starts with SIX:
+SIX PETALLED BLACK AND WHITE FLORETTE: ✾
+SIX POINTED BLACK STAR               : ✶
+SIXTEEN POINTED ASTERISK             : ✺
+ 
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo     7810   8300 \n  7810 ~  8300 \nRE\n | python3 quiz_3.py
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+           7810   8300 
+
+Incorrect input, try again!
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+         7810 ~  8300 
+
+Amongst the numbers between 7810 and 8300,
+  95.11% are code points of named characters.
+
+Enter a string: RE
+
+Here are those of the characters under consideration
+  whose name starts with RE:
+REFERENCE MARK       : ※
+REVERSED DOUBLE PRIME: ‶
+REVERSED PILCROW SIGN: ⁋
+REVERSED PRIME       : ‵
+REVERSED SEMICOLON   : ⁏
+REVERSED TRIPLE PRIME: ‷
+
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo   2300   ~    230000 \nLINE \n | python3 quiz_3.py
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+         2300   ~    230000 
+
+Amongst the numbers between 2300 and 230000,
+  61.72% are code points of named characters.
+
+Enter a string: LINE 
+
+Here are those of the characters under consideration
+  whose name starts with LINE :
+LINE INTEGRATION NOT INCLUDING THE POLE            : ⨔
+LINE INTEGRATION WITH RECTANGULAR PATH AROUND POLE : ⨒
+LINE INTEGRATION WITH SEMICIRCULAR PATH AROUND POLE: ⨓
+LINE SEPARATOR                                     :  
+
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo  81690~94690\nPAHA\n | python3 quiz_3.py
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+        81690~94690
+
+Amongst the numbers between 81690 and 94690,
+  13.03% are code points of named characters.
+
+Enter a string: PAHA
+
+Here are those of the characters under consideration
+  whose name starts with PAHA:
+PAHAWH HMONG CLAN SIGN FAJ              : 𖮋
+PAHAWH HMONG CLAN SIGN HAM              : 𖮉
+PAHAWH HMONG CLAN SIGN HAWJ             : 𖮃
+PAHAWH HMONG CLAN SIGN KHAB             : 𖮈
+PAHAWH HMONG CLAN SIGN KOO              : 𖮂
+PAHAWH HMONG CLAN SIGN KWM              : 𖮎
+PAHAWH HMONG CLAN SIGN LAUJ             : 𖮀
+PAHAWH HMONG CLAN SIGN LIS              : 𖭿
+PAHAWH HMONG CLAN SIGN MUAS             : 𖮄
+PAHAWH HMONG CLAN SIGN PHAB             : 𖮇
+PAHAWH HMONG CLAN SIGN THOJ             : 𖮅
+PAHAWH HMONG CLAN SIGN TSAB             : 𖮆
+PAHAWH HMONG CLAN SIGN TSHEEJ           : 𖭽
+PAHAWH HMONG CLAN SIGN TSWB             : 𖮍
+PAHAWH HMONG CLAN SIGN VAJ              : 𖮊
+PAHAWH HMONG CLAN SIGN VWJ              : 𖮏
+PAHAWH HMONG CLAN SIGN XYOOJ            : 𖮁
+PAHAWH HMONG CLAN SIGN YAJ              : 𖮌
+PAHAWH HMONG CLAN SIGN YEEG             : 𖭾
+PAHAWH HMONG CONSONANT AU               : 𖬭
+PAHAWH HMONG CONSONANT CAU              : 𖬯
+PAHAWH HMONG CONSONANT CHAU             : 𖬧
+PAHAWH HMONG CONSONANT HAU              : 𖬟
+PAHAWH HMONG CONSONANT HLAU             : 𖬥
+PAHAWH HMONG CONSONANT HNAU             : 𖬩
+PAHAWH HMONG CONSONANT LAU              : 𖬞
+PAHAWH HMONG CONSONANT MAU              : 𖬦
+PAHAWH HMONG CONSONANT NAU              : 𖬬
+PAHAWH HMONG CONSONANT NCHAU            : 𖬨
+PAHAWH HMONG CONSONANT NKAU             : 𖬢
+PAHAWH HMONG CONSONANT NLAU             : 𖬠
+PAHAWH HMONG CONSONANT NTHAU            : 𖬫
+PAHAWH HMONG CONSONANT NTSAU            : 𖬝
+PAHAWH HMONG CONSONANT PLHAU            : 𖬪
+PAHAWH HMONG CONSONANT QHAU             : 𖬣
+PAHAWH HMONG CONSONANT RAU              : 𖬡
+PAHAWH HMONG CONSONANT VAU              : 𖬜
+PAHAWH HMONG CONSONANT XAU              : 𖬮
+PAHAWH HMONG CONSONANT YAU              : 𖬤
+PAHAWH HMONG DIGIT EIGHT                : 𖭘
+PAHAWH HMONG DIGIT FIVE                 : 𖭕
+PAHAWH HMONG DIGIT FOUR                 : 𖭔
+PAHAWH HMONG DIGIT NINE                 : 𖭙
+PAHAWH HMONG DIGIT ONE                  : 𖭑
+PAHAWH HMONG DIGIT SEVEN                : 𖭗
+PAHAWH HMONG DIGIT SIX                  : 𖭖
+PAHAWH HMONG DIGIT THREE                : 𖭓
+PAHAWH HMONG DIGIT TWO                  : 𖭒
+PAHAWH HMONG DIGIT ZERO                 : 𖭐
+PAHAWH HMONG MARK CIM HOM               : 𖬵
+PAHAWH HMONG MARK CIM KES               : 𖬲
+PAHAWH HMONG MARK CIM KHAV              : 𖬳
+PAHAWH HMONG MARK CIM SO                : 𖬱
+PAHAWH HMONG MARK CIM SUAM              : 𖬴
+PAHAWH HMONG MARK CIM TAUM              : 𖬶
+PAHAWH HMONG MARK CIM TUB               : 𖬰
+PAHAWH HMONG NUMBER HUNDRED MILLIONS    : 𖭟
+PAHAWH HMONG NUMBER HUNDREDS            : 𖭜
+PAHAWH HMONG NUMBER MILLIONS            : 𖭞
+PAHAWH HMONG NUMBER TEN BILLIONS        : 𖭠
+PAHAWH HMONG NUMBER TEN THOUSANDS       : 𖭝
+PAHAWH HMONG NUMBER TENS                : 𖭛
+PAHAWH HMONG NUMBER TRILLIONS           : 𖭡
+PAHAWH HMONG SIGN AV                    : 𖭬
+PAHAWH HMONG SIGN CIM CHEEM             : 𖬹
+PAHAWH HMONG SIGN CIM CUAM TSHOOJ       : 𖭳
+PAHAWH HMONG SIGN CIM HAIS LUS NTOG NTOG: 𖭲
+PAHAWH HMONG SIGN CIM NRES TOS          : 𖭷
+PAHAWH HMONG SIGN CIM PUB DAWB          : 𖭶
+PAHAWH HMONG SIGN CIM TSOV ROG          : 𖭅
+PAHAWH HMONG SIGN CIM TXWV              : 𖭴
+PAHAWH HMONG SIGN CIM TXWV CHWV         : 𖭵
+PAHAWH HMONG SIGN HLI                   : 𖭥
+PAHAWH HMONG SIGN HNUB                  : 𖭨
+PAHAWH HMONG SIGN IB YAM                : 𖭃
+PAHAWH HMONG SIGN LOS                   : 𖭰
+PAHAWH HMONG SIGN MEEJ SUAB             : 𖭁
+PAHAWH HMONG SIGN MEEJ TSEEB            : 𖭮
+PAHAWH HMONG SIGN MUS                   : 𖭱
+PAHAWH HMONG SIGN NQIG                  : 𖭩
+PAHAWH HMONG SIGN NTUJ                  : 𖭫
+PAHAWH HMONG SIGN TAU                   : 𖭯
+PAHAWH HMONG SIGN THIRD-STAGE HLI       : 𖭦
+PAHAWH HMONG SIGN TXHEEJ CEEV           : 𖭭
+PAHAWH HMONG SIGN VOS FEEM              : 𖬻
+PAHAWH HMONG SIGN VOS LUB               : 𖭣
+PAHAWH HMONG SIGN VOS NRUA              : 𖭂
+PAHAWH HMONG SIGN VOS SEEV              : 𖭀
+PAHAWH HMONG SIGN VOS THIAB             : 𖬺
+PAHAWH HMONG SIGN VOS THOM              : 𖬷
+PAHAWH HMONG SIGN VOS TSHAB CEEB        : 𖬸
+PAHAWH HMONG SIGN XAUS                  : 𖭄
+PAHAWH HMONG SIGN XIAB                  : 𖭪
+PAHAWH HMONG SIGN XYEEM FAIB            : 𖬿
+PAHAWH HMONG SIGN XYEEM NTXIV           : 𖬼
+PAHAWH HMONG SIGN XYEEM RHO             : 𖬽
+PAHAWH HMONG SIGN XYEEM TOV             : 𖬾
+PAHAWH HMONG SIGN XYOO                  : 𖭤
+PAHAWH HMONG SIGN ZWJ THAJ              : 𖭧
+PAHAWH HMONG VOWEL KAAB                 : 𖬚
+PAHAWH HMONG VOWEL KAAV                 : 𖬛
+PAHAWH HMONG VOWEL KAB                  : 𖬖
+PAHAWH HMONG VOWEL KAIB                 : 𖬊
+PAHAWH HMONG VOWEL KAIV                 : 𖬋
+PAHAWH HMONG VOWEL KAUB                 : 𖬄
+PAHAWH HMONG VOWEL KAUV                 : 𖬅
+PAHAWH HMONG VOWEL KAV                  : 𖬗
+PAHAWH HMONG VOWEL KAWB                 : 𖬎
+PAHAWH HMONG VOWEL KAWV                 : 𖬏
+PAHAWH HMONG VOWEL KEB                  : 𖬈
+PAHAWH HMONG VOWEL KEEB                 : 𖬀
+PAHAWH HMONG VOWEL KEEV                 : 𖬁
+PAHAWH HMONG VOWEL KEV                  : 𖬉
+PAHAWH HMONG VOWEL KIAB                 : 𖬔
+PAHAWH HMONG VOWEL KIAV                 : 𖬕
+PAHAWH HMONG VOWEL KIB                  : 𖬂
+PAHAWH HMONG VOWEL KIV                  : 𖬃
+PAHAWH HMONG VOWEL KOB                  : 𖬒
+PAHAWH HMONG VOWEL KOOB                 : 𖬌
+PAHAWH HMONG VOWEL KOOV                 : 𖬍
+PAHAWH HMONG VOWEL KOV                  : 𖬓
+PAHAWH HMONG VOWEL KUAB                 : 𖬐
+PAHAWH HMONG VOWEL KUAV                 : 𖬑
+PAHAWH HMONG VOWEL KUB                  : 𖬆
+PAHAWH HMONG VOWEL KUV                  : 𖬇
+PAHAWH HMONG VOWEL KWB                  : 𖬘
+PAHAWH HMONG VOWEL KWV                  : 𖬙
+
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo         890  ~    60289\nSUB\n  | python3 quiz_3.py
+Please input two integers a and b with 0 <= a <= b <= 1114111,
+       both integers being separated by ~, with possibly
+       spaces and tabs before and after the numbers:
+               890  ~    60289
+
+Amongst the numbers between 890 and 60289,
+  89.42% are code points of named characters.
+
+Enter a string: SUB
+
+Here are those of the characters under consideration
+  whose name starts with SUB:
+SUBSCRIPT EIGHT                      : ₈
+SUBSCRIPT EQUALS SIGN                : ₌
+SUBSCRIPT FIVE                       : ₅
+SUBSCRIPT FOUR                       : ₄
+SUBSCRIPT LEFT PARENTHESIS           : ₍
+SUBSCRIPT MINUS                      : ₋
+SUBSCRIPT NINE                       : ₉
+SUBSCRIPT ONE                        : ₁
+SUBSCRIPT PLUS SIGN                  : ₊
+SUBSCRIPT RIGHT PARENTHESIS          : ₎
+SUBSCRIPT SEVEN                      : ₇
+SUBSCRIPT SIX                        : ₆
+SUBSCRIPT THREE                      : ₃
+SUBSCRIPT TWO                        : ₂
+SUBSCRIPT ZERO                       : ₀
+SUBSET ABOVE RIGHTWARDS ARROW        : ⥹
+SUBSET ABOVE SUBSET                  : ⫕
+SUBSET ABOVE SUPERSET                : ⫓
+SUBSET OF                            : ⊂
+SUBSET OF ABOVE ALMOST EQUAL TO      : ⫉
+SUBSET OF ABOVE EQUALS SIGN          : ⫅
+SUBSET OF ABOVE NOT EQUAL TO         : ⫋
+SUBSET OF ABOVE TILDE OPERATOR       : ⫇
+SUBSET OF OR EQUAL TO                : ⊆
+SUBSET OF OR EQUAL TO WITH DOT ABOVE : ⫃
+SUBSET OF WITH NOT EQUAL TO          : ⊊
+SUBSET WITH DOT                      : ⪽
+SUBSET WITH MULTIPLICATION SIGN BELOW: ⫁
+SUBSET WITH PLUS SIGN BELOW          : ⪿
+ 
+TEST 15 END
+

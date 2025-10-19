@@ -1,0 +1,517 @@
+TEST 1 BEGIN
+$ echo 0 3 1 | python3 quiz_6.py
+Input an integer, an integer greater than 0,
+      and a number between 0 and 1: 0 3 1
+Here is the grid that has been generated:
+   -----------------------
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   -----------------------
+The size of the largest stripes of width is 24.
+There is 1 stripe of that size.
+Here it is:
+
+   -----------------------
+   |     *               |
+   |   *   *             |
+   | *   *   *           |
+   |   *   *   *         |
+   |     *   *   *       |
+   |       *   *   *     |
+   |         *   *   *   |
+   |           *   *   * |
+   |             *   *   |
+   |               *     |
+   -----------------------
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 0 6 1 | python3 quiz_6.py
+Input an integer, an integer greater than 0,
+      and a number between 0 and 1: 0 6 1
+Here is the grid that has been generated:
+   -----------------------
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   -----------------------
+The size of the largest stripes of width is 30.
+There is 1 stripe of that size.
+Here it is:
+
+   -----------------------
+   |           *         |
+   |         *   *       |
+   |       *   *   *     |
+   |     *   *   *   *   |
+   |   *   *   *   *   * |
+   | *   *   *   *   *   |
+   |   *   *   *   *     |
+   |     *   *   *       |
+   |       *   *         |
+   |         *           |
+   -----------------------
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 0 9 1 | python3 quiz_6.py
+Input an integer, an integer greater than 0,
+      and a number between 0 and 1: 0 9 1
+Here is the grid that has been generated:
+   -----------------------
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   -----------------------
+The size of the largest stripes of width is 18.
+There is 1 stripe of that size.
+Here it is:
+
+   -----------------------
+   |                 *   |
+   |               *   * |
+   |             *   *   |
+   |           *   *     |
+   |         *   *       |
+   |       *   *         |
+   |     *   *           |
+   |   *   *             |
+   | *   *               |
+   |   *                 |
+   -----------------------
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 981 1 0.7 | python3 quiz_6.py
+Input an integer, an integer greater than 0,
+      and a number between 0 and 1: 981 1 0.7
+Here is the grid that has been generated:
+   -----------------------
+   |   * *     * * *   * |
+   | * * *     * * * * * |
+   | *   * *   * * * * * |
+   | *     *   * * * *   |
+   | *   *   * * * * *   |
+   |   *   * * * *       |
+   | * * * * * * * * * * |
+   |   * * *   * *   * * |
+   | * * * * * * * * * * |
+   | * *   * * *   *   * |
+   -----------------------
+The size of the largest stripes of width is 6.
+There are 3 stripes of that size.
+Here they are:
+   -----------------------
+   |                     |
+   |   *                 |
+   |     *               |
+   |       *             |
+   | *   *   *           |
+   |   *   *   *         |
+   |     *   *   *       |
+   |       *   *         |
+   |         *   *       |
+   |           *   *     |
+   -----------------------
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 982 1 0.5 | python3 quiz_6.py
+Input an integer, an integer greater than 0,
+      and a number between 0 and 1: 982 1 0.5
+Here is the grid that has been generated:
+   -----------------------
+   |     *             * |
+   | * * * *   * * * * * |
+   | *   * *       * * * |
+   |       * *     * *   |
+   |       * *       *   |
+   | *     *   *         |
+   | * * *   *   *     * |
+   | *   *     * * * * * |
+   |   *   * *   * *   * |
+   |   * *   * *   * *   |
+   -----------------------
+The size of the largest stripes of width is 7.
+There is 1 stripe of that size.
+Here it is:
+
+   -----------------------
+   |                     |
+   |   *                 |
+   |     *               |
+   |       *             |
+   |         *           |
+   |           *         |
+   |             *       |
+   |               *     |
+   |                     |
+   |                     |
+   -----------------------
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 983 1 0.8 | python3 quiz_6.py
+Input an integer, an integer greater than 0,
+      and a number between 0 and 1: 983 1 0.8
+Here is the grid that has been generated:
+   -----------------------
+   | * * * * * * * *   * |
+   | * * * * *   * * *   |
+   |   *       *   * *   |
+   | * * * *     *   * * |
+   | *     *   * * * * * |
+   | * * * *   * * * * * |
+   |   * *     * * * *   |
+   | * * *   * * * * * * |
+   | * * *   * * * * * * |
+   | * *   * * *   * * * |
+   -----------------------
+The size of the largest stripes of width is 6.
+There is 1 stripe of that size.
+Here it is:
+
+   -----------------------
+   |       *             |
+   |         *           |
+   |           *         |
+   |             *       |
+   |               *     |
+   |                 *   |
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   -----------------------
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 984 2 0.8 | python3 quiz_6.py
+Input an integer, an integer greater than 0,
+      and a number between 0 and 1: 984 2 0.8
+Here is the grid that has been generated:
+   -----------------------
+   | * * * * * * *   * * |
+   | * * * * * * * * * * |
+   | * * * * *   * * * * |
+   | * * * * * * *   * * |
+   | * * * *   * * *   * |
+   | * * * * * *   * * * |
+   | *   * * * * * * * * |
+   | *     * * * *     * |
+   | *   * * *   * *   * |
+   | * * *       * *   * |
+   -----------------------
+The size of the largest stripes of width is 10.
+There are 3 stripes of that size.
+Here they are:
+   -----------------------
+   |   *                 |
+   | *   *               |
+   |   *   *             |
+   | * * *   *           |
+   | * * * *   *         |
+   |   * * * *           |
+   |     * * * *         |
+   |       * * *         |
+   |         *           |
+   |                     |
+   -----------------------
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 985 2 0.7 | python3 quiz_6.py
+Input an integer, an integer greater than 0,
+      and a number between 0 and 1: 985 2 0.7
+Here is the grid that has been generated:
+   -----------------------
+   | * * * * * * * * * * |
+   |   * * * * * *   * * |
+   | *     *         * * |
+   | * * * *   *     * * |
+   |   * *   * * * * *   |
+   | *     * *   * * *   |
+   | * * *   * *   * *   |
+   | *   *   * *   * *   |
+   | *   * *   *   * * * |
+   |   * * * * *     * * |
+   -----------------------
+The size of the largest stripes of width is 4.
+There are 6 stripes of that size.
+Here they are:
+   -----------------------
+   |       *             |
+   |     *   *           |
+   |       *             |
+   |       *             |
+   |     *   * *   *     |
+   |       * *   *   *   |
+   |           *   *     |
+   |         *       *   |
+   |       *   *   *   * |
+   |         *       *   |
+   -----------------------
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 986 3 0.9 | python3 quiz_6.py
+Input an integer, an integer greater than 0,
+      and a number between 0 and 1: 986 3 0.9
+Here is the grid that has been generated:
+   -----------------------
+   | * * * * * * * * * * |
+   | *   *   * * * *   * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * *   * * * * * * * |
+   | * * * *   * * * * * |
+   |     * * * * * * * * |
+   | * * * * * * * * * * |
+   |   * * * * * * * * * |
+   | * * * * * * * * * * |
+   -----------------------
+The size of the largest stripes of width is 15.
+There are 3 stripes of that size.
+Here they are:
+   -----------------------
+   |           *         |
+   |         * * *       |
+   |       * * * * *     |
+   |       * * * * * *   |
+   |         * * * * * * |
+   |       *   * * * * * |
+   |         *   * * *   |
+   |           *   *   * |
+   |             *   *   |
+   |               *     |
+   -----------------------
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 987 3 0.8 | python3 quiz_6.py
+Input an integer, an integer greater than 0,
+      and a number between 0 and 1: 987 3 0.8
+Here is the grid that has been generated:
+   -----------------------
+   | * * *   * *   * * * |
+   | * * *   *   * * * * |
+   | * * * * * * * * *   |
+   | * * * * * *       * |
+   | * * * * *   *   * * |
+   |   * * * *   *   * * |
+   | *   * *   * *   * * |
+   | * *   * * *   * * * |
+   |   * * * * * * * * * |
+   |   * * * * * * * * * |
+   -----------------------
+The size of the largest stripes of width is 9.
+There are 2 stripes of that size.
+Here they are:
+   -----------------------
+   |                     |
+   |     *               |
+   |   * * *             |
+   | * * * * *           |
+   | * * * * *           |
+   |   * * *             |
+   |     *               |
+   |                     |
+   |                     |
+   |                     |
+   -----------------------
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo 988 4 0.8 | python3 quiz_6.py
+Input an integer, an integer greater than 0,
+      and a number between 0 and 1: 988 4 0.8
+Here is the grid that has been generated:
+   -----------------------
+   |   * * * * * *   * * |
+   | *   * *   * * * * * |
+   | *   * * * * * * * * |
+   |     * * * * * * * * |
+   | *   *     * *   * * |
+   |   * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * *   * * * |
+   | * * * * * * * * * * |
+   | * *   *   * * * * * |
+   -----------------------
+The size of the largest stripes of width is 12.
+There are 2 stripes of that size.
+Here they are:
+   -----------------------
+   |                     |
+   |                     |
+   |                     |
+   |               *     |
+   |             *   *   |
+   |           *   *   * |
+   |         *   *   *   |
+   |       *   *   *     |
+   |         *   *       |
+   |           *         |
+   -----------------------
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo 989 4 0.7 | python3 quiz_6.py
+Input an integer, an integer greater than 0,
+      and a number between 0 and 1: 989 4 0.7
+Here is the grid that has been generated:
+   -----------------------
+   |     * * * *       * |
+   | * *     * * * *   * |
+   |   *     * * * * *   |
+   | * * * *   * * * * * |
+   | *     * * * * *   * |
+   | * * * * * * *   *   |
+   | *     * *       * * |
+   | *   * * * * * *   * |
+   | * *   * * * *   * * |
+   | * * * * * * * *   * |
+   -----------------------
+The size of the largest stripes of width is 8.
+There are 2 stripes of that size.
+Here they are:
+   -----------------------
+   |                     |
+   |               *     |
+   |             *   *   |
+   |           *   *     |
+   |         *   *       |
+   |       *   *         |
+   |         *           |
+   |                     |
+   |                     |
+   |                     |
+   -----------------------
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo 990 5 0.8 | python3 quiz_6.py
+Input an integer, an integer greater than 0,
+      and a number between 0 and 1: 990 5 0.8
+Here is the grid that has been generated:
+   -----------------------
+   |   * * * * * * *   * |
+   | * *   * * *   *   * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * *     * *   * * |
+   | * * *   * * * * * * |
+   | * * *     * * * * * |
+   | *   * *     *   * * |
+   | * *   *   *   *   * |
+   | * * * *   * * * * * |
+   -----------------------
+The size of the largest stripes of width is 10.
+There is 1 stripe of that size.
+Here it is:
+
+   -----------------------
+   |         *           |
+   |       *   *         |
+   |     *   *           |
+   |   *   *             |
+   | *   *               |
+   |   *                 |
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   -----------------------
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo 991 5 0.9 | python3 quiz_6.py
+Input an integer, an integer greater than 0,
+      and a number between 0 and 1: 991 5 0.9
+Here is the grid that has been generated:
+   -----------------------
+   | * * * * * * * *   * |
+   | * * *   * * * * * * |
+   | * * * * *   * * * * |
+   | *   * * * * *     * |
+   | * * * * * * * * * * |
+   | *   *   * * * * * * |
+   | * * * * * * *   * * |
+   | * * * * * * * * * * |
+   | * *   * * * * * * * |
+   |     * * *   *   * * |
+   -----------------------
+The size of the largest stripes of width is 15.
+There is 1 stripe of that size.
+Here it is:
+
+   -----------------------
+   |                     |
+   |                     |
+   |                     |
+   |         *           |
+   |       *   *         |
+   |     *   *   *       |
+   |   *   *   *         |
+   | *   *   *           |
+   |   *   *             |
+   |     *               |
+   -----------------------
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo 992 6 0.9 | python3 quiz_6.py
+Input an integer, an integer greater than 0,
+      and a number between 0 and 1: 992 6 0.9
+Here is the grid that has been generated:
+   -----------------------
+   |   * *   *   * * * * |
+   | * * * * *   * * *   |
+   | * * * * * * * * *   |
+   | * * * * *   * * * * |
+   | * * * * * * * * * * |
+   | * * * *   * * *   * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * *   *   * |
+   | * * * * * * * * * * |
+   -----------------------
+The size of the largest stripes of width is 12.
+There are 2 stripes of that size.
+Here they are:
+   -----------------------
+   |                     |
+   |                     |
+   |                 *   |
+   |               *   * |
+   |             *   *   |
+   |           *   *     |
+   |         *   *       |
+   |       *   *         |
+   |     *   *           |
+   |       *             |
+   -----------------------
+TEST 15 END
+

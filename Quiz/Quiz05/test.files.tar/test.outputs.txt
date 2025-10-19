@@ -1,0 +1,241 @@
+TEST 1 BEGIN
+$ python3 -c 'from quiz_5 import *; analyse("F", 39)'
+The following might particularly contribute to cardio problems for females aged 39:
+   70.97: Diastolic blood pressure in category 4 (1 lowest, 5 highest)
+   35.06: Diastolic blood pressure in category 3 (1 lowest, 5 highest)
+   33.27: Systolic blood pressure in category 4 (1 lowest, 5 highest)
+   7.39: Diastolic blood pressure in category 5 (1 lowest, 5 highest)
+   5.91: Height in category 5 (1 lowest, 5 highest)
+   5.39: Diastolic blood pressure in category 2 (1 lowest, 5 highest)
+   4.44: Systolic blood pressure in category 5 (1 lowest, 5 highest)
+   3.78: Cholesterol in category 3 (1 lowest, 3 highest)
+   3.23: Height in category 4 (1 lowest, 5 highest)
+   3.00: Systolic blood pressure in category 3 (1 lowest, 5 highest)
+   2.75: Cholesterol in category 2 (1 lowest, 3 highest)
+   2.37: Weight in category 4 (1 lowest, 5 highest)
+   1.97: Weight in category 5 (1 lowest, 5 highest)
+   1.95: Glucose in category 2 (1 lowest, 3 highest)
+   1.73: Glucose in category 3 (1 lowest, 3 highest)
+   1.61: Not smoking
+   1.35: Weight in category 3 (1 lowest, 5 highest)
+   1.30: Not being active
+   1.28: Systolic blood pressure in category 1 (1 lowest, 5 highest)
+   1.22: Weight in category 2 (1 lowest, 5 highest)
+   1.02: Drinking
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 -c 'from quiz_5 import *; analyse("F", 42)'
+The following might particularly contribute to cardio problems for females aged 42:
+   inf: Diastolic blood pressure in category 4 (1 lowest, 5 highest)
+   73.50: Diastolic blood pressure in category 3 (1 lowest, 5 highest)
+   9.92: Systolic blood pressure in category 4 (1 lowest, 5 highest)
+   8.42: Diastolic blood pressure in category 2 (1 lowest, 5 highest)
+   8.17: Cholesterol in category 3 (1 lowest, 3 highest)
+   7.28: Systolic blood pressure in category 3 (1 lowest, 5 highest)
+   7.00: Diastolic blood pressure in category 5 (1 lowest, 5 highest)
+   4.67: Systolic blood pressure in category 5 (1 lowest, 5 highest)
+   2.98: Cholesterol in category 2 (1 lowest, 3 highest)
+   2.76: Weight in category 4 (1 lowest, 5 highest)
+   2.24: Glucose in category 2 (1 lowest, 3 highest)
+   2.20: Weight in category 3 (1 lowest, 5 highest)
+   1.97: Systolic blood pressure in category 1 (1 lowest, 5 highest)
+   1.83: Glucose in category 3 (1 lowest, 3 highest)
+   1.56: Weight in category 5 (1 lowest, 5 highest)
+   1.27: Not drinking
+   1.17: Height in category 4 (1 lowest, 5 highest)
+   1.08: Weight in category 2 (1 lowest, 5 highest)
+   1.03: Height in category 2 (1 lowest, 5 highest)
+   1.03: Being active
+   1.00: Smoking
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 -c 'from quiz_5 import *; analyse("F", 45)'
+The following might particularly contribute to cardio problems for females aged 45:
+   8.41: Diastolic blood pressure in category 3 (1 lowest, 5 highest)
+   4.56: Systolic blood pressure in category 4 (1 lowest, 5 highest)
+   4.40: Cholesterol in category 3 (1 lowest, 3 highest)
+   4.35: Diastolic blood pressure in category 2 (1 lowest, 5 highest)
+   4.01: Diastolic blood pressure in category 4 (1 lowest, 5 highest)
+   3.81: Systolic blood pressure in category 3 (1 lowest, 5 highest)
+   2.67: Systolic blood pressure in category 5 (1 lowest, 5 highest)
+   2.67: Diastolic blood pressure in category 5 (1 lowest, 5 highest)
+   1.79: Cholesterol in category 2 (1 lowest, 3 highest)
+   1.74: Glucose in category 3 (1 lowest, 3 highest)
+   1.71: Weight in category 4 (1 lowest, 5 highest)
+   1.53: Glucose in category 2 (1 lowest, 3 highest)
+   1.53: Height in category 2 (1 lowest, 5 highest)
+   1.52: Height in category 1 (1 lowest, 5 highest)
+   1.45: Not smoking
+   1.34: Weight in category 5 (1 lowest, 5 highest)
+   1.32: Not being active
+   1.23: Weight in category 3 (1 lowest, 5 highest)
+   1.17: Weight in category 2 (1 lowest, 5 highest)
+   1.07: Not drinking
+   1.06: Systolic blood pressure in category 1 (1 lowest, 5 highest)
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 -c 'from quiz_5 import *; analyse("F", 51)'
+The following might particularly contribute to cardio problems for females aged 51:
+   13.14: Systolic blood pressure in category 5 (1 lowest, 5 highest)
+   6.45: Systolic blood pressure in category 4 (1 lowest, 5 highest)
+   5.32: Systolic blood pressure in category 3 (1 lowest, 5 highest)
+   3.05: Cholesterol in category 3 (1 lowest, 3 highest)
+   3.05: Not drinking
+   2.89: Weight in category 4 (1 lowest, 5 highest)
+   2.29: Weight in category 5 (1 lowest, 5 highest)
+   2.26: Diastolic blood pressure in category 1 (1 lowest, 5 highest)
+   1.90: Height in category 5 (1 lowest, 5 highest)
+   1.78: Glucose in category 3 (1 lowest, 3 highest)
+   1.64: Weight in category 3 (1 lowest, 5 highest)
+   1.54: Cholesterol in category 2 (1 lowest, 3 highest)
+   1.37: Diastolic blood pressure in category 3 (1 lowest, 5 highest)
+   1.33: Not smoking
+   1.26: Glucose in category 2 (1 lowest, 3 highest)
+   1.08: Height in category 3 (1 lowest, 5 highest)
+   1.05: Height in category 4 (1 lowest, 5 highest)
+   1.00: Being active
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 -c 'from quiz_5 import *; analyse("F", 64)'
+The following might particularly contribute to cardio problems for females aged 64:
+   3.98: Systolic blood pressure in category 4 (1 lowest, 5 highest)
+   3.56: Diastolic blood pressure in category 4 (1 lowest, 5 highest)
+   3.52: Systolic blood pressure in category 3 (1 lowest, 5 highest)
+   3.21: Systolic blood pressure in category 5 (1 lowest, 5 highest)
+   2.27: Cholesterol in category 3 (1 lowest, 3 highest)
+   1.78: Diastolic blood pressure in category 3 (1 lowest, 5 highest)
+   1.67: Diastolic blood pressure in category 2 (1 lowest, 5 highest)
+   1.42: Diastolic blood pressure in category 5 (1 lowest, 5 highest)
+   1.38: Glucose in category 3 (1 lowest, 3 highest)
+   1.26: Cholesterol in category 2 (1 lowest, 3 highest)
+   1.22: Not being active
+   1.15: Height in category 1 (1 lowest, 5 highest)
+   1.12: Weight in category 4 (1 lowest, 5 highest)
+   1.12: Weight in category 3 (1 lowest, 5 highest)
+   1.08: Height in category 3 (1 lowest, 5 highest)
+   1.01: Glucose in category 2 (1 lowest, 3 highest)
+   1.01: Weight in category 2 (1 lowest, 5 highest)
+   1.01: Drinking
+   1.00: Height in category 2 (1 lowest, 5 highest)
+   1.00: Smoking
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 -c 'from quiz_5 import *; analyse("M", 39)'
+The following might particularly contribute to cardio problems for males aged 39:
+   14.34: Diastolic blood pressure in category 3 (1 lowest, 5 highest)
+   7.13: Systolic blood pressure in category 1 (1 lowest, 5 highest)
+   5.81: Weight in category 4 (1 lowest, 5 highest)
+   5.46: Weight in category 5 (1 lowest, 5 highest)
+   5.46: Cholesterol in category 3 (1 lowest, 3 highest)
+   3.04: Height in category 5 (1 lowest, 5 highest)
+   2.96: Height in category 1 (1 lowest, 5 highest)
+   2.73: Systolic blood pressure in category 5 (1 lowest, 5 highest)
+   2.67: Weight in category 3 (1 lowest, 5 highest)
+   2.51: Cholesterol in category 2 (1 lowest, 3 highest)
+   2.46: Glucose in category 2 (1 lowest, 3 highest)
+   1.82: Systolic blood pressure in category 4 (1 lowest, 5 highest)
+   1.76: Systolic blood pressure in category 3 (1 lowest, 5 highest)
+   1.76: Diastolic blood pressure in category 1 (1 lowest, 5 highest)
+   1.24: Glucose in category 3 (1 lowest, 3 highest)
+   1.08: Not being active
+   1.04: Smoking
+   1.02: Drinking
+   1.01: Height in category 3 (1 lowest, 5 highest)
+   1.01: Height in category 2 (1 lowest, 5 highest)
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 -c 'from quiz_5 import *; analyse("M", 43)'
+The following might particularly contribute to cardio problems for males aged 43:
+   16.91: Diastolic blood pressure in category 3 (1 lowest, 5 highest)
+   6.01: Weight in category 5 (1 lowest, 5 highest)
+   4.51: Cholesterol in category 3 (1 lowest, 3 highest)
+   3.43: Systolic blood pressure in category 3 (1 lowest, 5 highest)
+   3.20: Diastolic blood pressure in category 2 (1 lowest, 5 highest)
+   3.01: Diastolic blood pressure in category 4 (1 lowest, 5 highest)
+   2.26: Systolic blood pressure in category 4 (1 lowest, 5 highest)
+   1.91: Weight in category 4 (1 lowest, 5 highest)
+   1.77: Glucose in category 3 (1 lowest, 3 highest)
+   1.65: Cholesterol in category 2 (1 lowest, 3 highest)
+   1.50: Systolic blood pressure in category 5 (1 lowest, 5 highest)
+   1.50: Glucose in category 2 (1 lowest, 3 highest)
+   1.50: Diastolic blood pressure in category 5 (1 lowest, 5 highest)
+   1.48: Weight in category 3 (1 lowest, 5 highest)
+   1.47: Systolic blood pressure in category 1 (1 lowest, 5 highest)
+   1.09: Not smoking
+   1.08: Not being active
+   1.08: Height in category 4 (1 lowest, 5 highest)
+   1.07: Height in category 3 (1 lowest, 5 highest)
+   1.00: Drinking
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 -c 'from quiz_5 import *; analyse("M", 49)'
+The following might particularly contribute to cardio problems for males aged 49:
+   15.31: Systolic blood pressure in category 1 (1 lowest, 5 highest)
+   6.21: Diastolic blood pressure in category 3 (1 lowest, 5 highest)
+   5.10: Weight in category 5 (1 lowest, 5 highest)
+   3.97: Weight in category 4 (1 lowest, 5 highest)
+   3.08: Diastolic blood pressure in category 2 (1 lowest, 5 highest)
+   3.03: Cholesterol in category 3 (1 lowest, 3 highest)
+   2.15: Systolic blood pressure in category 2 (1 lowest, 5 highest)
+   2.04: Diastolic blood pressure in category 4 (1 lowest, 5 highest)
+   2.00: Glucose in category 2 (1 lowest, 3 highest)
+   1.79: Cholesterol in category 2 (1 lowest, 3 highest)
+   1.56: Weight in category 3 (1 lowest, 5 highest)
+   1.53: Systolic blood pressure in category 5 (1 lowest, 5 highest)
+   1.40: Glucose in category 3 (1 lowest, 3 highest)
+   1.35: Height in category 5 (1 lowest, 5 highest)
+   1.34: Not being active
+   1.04: Not drinking
+   1.04: Smoking
+   1.03: Height in category 4 (1 lowest, 5 highest)
+   1.02: Diastolic blood pressure in category 5 (1 lowest, 5 highest)
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 -c 'from quiz_5 import *; analyse("M", 52)'
+The following might particularly contribute to cardio problems for males aged 52:
+   6.33: Systolic blood pressure in category 3 (1 lowest, 5 highest)
+   4.87: Systolic blood pressure in category 4 (1 lowest, 5 highest)
+   3.47: Diastolic blood pressure in category 1 (1 lowest, 5 highest)
+   3.40: Systolic blood pressure in category 5 (1 lowest, 5 highest)
+   3.40: Diastolic blood pressure in category 5 (1 lowest, 5 highest)
+   2.15: Height in category 5 (1 lowest, 5 highest)
+   1.90: Cholesterol in category 3 (1 lowest, 3 highest)
+   1.82: Weight in category 1 (1 lowest, 5 highest)
+   1.81: Height in category 4 (1 lowest, 5 highest)
+   1.68: Cholesterol in category 2 (1 lowest, 3 highest)
+   1.55: Glucose in category 2 (1 lowest, 3 highest)
+   1.25: Height in category 1 (1 lowest, 5 highest)
+   1.19: Not being active
+   1.10: Glucose in category 3 (1 lowest, 3 highest)
+   1.06: Smoking
+   1.06: Drinking
+   1.05: Weight in category 2 (1 lowest, 5 highest)
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 -c 'from quiz_5 import *; analyse("M", 63)'
+The following might particularly contribute to cardio problems for males aged 63:
+   5.28: Diastolic blood pressure in category 1 (1 lowest, 5 highest)
+   3.20: Systolic blood pressure in category 5 (1 lowest, 5 highest)
+   2.67: Systolic blood pressure in category 3 (1 lowest, 5 highest)
+   1.76: Systolic blood pressure in category 4 (1 lowest, 5 highest)
+   1.64: Cholesterol in category 3 (1 lowest, 3 highest)
+   1.61: Not drinking
+   1.21: Weight in category 4 (1 lowest, 5 highest)
+   1.18: Height in category 2 (1 lowest, 5 highest)
+   1.18: Height in category 3 (1 lowest, 5 highest)
+   1.16: Weight in category 2 (1 lowest, 5 highest)
+   1.15: Glucose in category 2 (1 lowest, 3 highest)
+   1.11: Not being active
+   1.03: Smoking
+   1.00: Glucose in category 1 (1 lowest, 3 highest)
+TEST 10 END
+

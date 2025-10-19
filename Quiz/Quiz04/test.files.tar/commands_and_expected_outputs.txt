@@ -1,0 +1,162 @@
+TEST 1 BEGIN
+$ python3 -c 'from quiz_4 import *; tri_numbers(18)'
+There are 3 trinumbers at most equal to 18.
+The largest one is 18, equal to 2 x 3 x 3.
+
+The maximum gap in decompositions is 0.
+It is achieved with:
+  8 = 2 x 2 x 2
+  12 = 2 x 2 x 3
+  18 = 2 x 3 x 3
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 -c 'from quiz_4 import *; tri_numbers(41)'
+There are 7 trinumbers at most equal to 41.
+The largest one is 30, equal to 2 x 3 x 5.
+
+The maximum gap in decompositions is 1.
+It is achieved with:
+  30 = 2 x 3 x 5
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 -c 'from quiz_4 import *; tri_numbers(99)'
+There are 22 trinumbers at most equal to 99.
+The largest one is 99, equal to 3 x 3 x 11.
+
+The maximum gap in decompositions is 2.
+It is achieved with:
+  70 = 2 x 5 x 7
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 -c 'from quiz_4 import *; tri_numbers(150)'
+There are 34 trinumbers at most equal to 150.
+The largest one is 148, equal to 2 x 2 x 37.
+
+The maximum gap in decompositions is 3.
+It is achieved with:
+  110 = 2 x 5 x 11
+  130 = 2 x 5 x 13
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 -c 'from quiz_4 import *; tri_numbers(333)'
+There are 80 trinumbers at most equal to 333.
+The largest one is 333, equal to 3 x 3 x 37.
+
+The maximum gap in decompositions is 5.
+It is achieved with:
+  182 = 2 x 7 x 13
+  238 = 2 x 7 x 17
+  266 = 2 x 7 x 19
+  322 = 2 x 7 x 23
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 -c 'from quiz_4 import *; tri_numbers(863)'
+There are 212 trinumbers at most equal to 863.
+The largest one is 861, equal to 3 x 7 x 41.
+
+The maximum gap in decompositions is 11.
+It is achieved with:
+  754 = 2 x 13 x 29
+  806 = 2 x 13 x 31
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 -c 'from quiz_4 import *; tri_numbers(2396)'
+There are 605 trinumbers at most equal to 2396.
+The largest one is 2396, equal to 2 x 2 x 599.
+
+The maximum gap in decompositions is 21.
+It is achieved with:
+  2162 = 2 x 23 x 47
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 -c 'from quiz_4 import *; tri_numbers(8361)'
+There are 2127 trinumbers at most equal to 8361.
+The largest one is 8361, equal to 3 x 3 x 929.
+
+The maximum gap in decompositions is 41.
+It is achieved with:
+  7654 = 2 x 43 x 89
+  8342 = 2 x 43 x 97
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 -c 'from quiz_4 import *; tri_numbers(23900)'
+There are 6138 trinumbers at most equal to 23900.
+The largest one is 23894, equal to 2 x 13 x 919.
+
+The maximum gap in decompositions is 72.
+It is achieved with:
+  23858 = 2 x 79 x 151
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 -c 'from quiz_4 import *; tri_numbers(98234)'
+There are 25136 trinumbers at most equal to 98234.
+The largest one is 98229, equal to 3 x 137 x 239.
+
+The maximum gap in decompositions is 154.
+It is achieved with:
+  97654 = 2 x 157 x 311
+TEST 10 END
+
+TEST 11 BEGIN
+$ python3 -c 'from quiz_4 import *; tri_numbers(345_809)'
+There are 87683 trinumbers at most equal to 345809.
+The largest one is 345806, equal to 2 x 43 x 4021.
+
+The maximum gap in decompositions is 291.
+It is achieved with:
+  343982 = 2 x 293 x 587
+TEST 11 END
+
+TEST 12 BEGIN
+$ python3 -c 'from quiz_4 import *; tri_numbers(876_000)'
+There are 220136 trinumbers at most equal to 876000.
+The largest one is 875995, equal to 5 x 19 x 9221.
+
+The maximum gap in decompositions is 465.
+It is achieved with:
+  875158 = 2 x 467 x 937
+TEST 12 END
+
+TEST 13 BEGIN
+$ python3 -c 'from quiz_4 import *; tri_numbers(1_234_567)'
+There are 309091 trinumbers at most equal to 1234567.
+The largest one is 1234564, equal to 2 x 2 x 308641.
+
+The maximum gap in decompositions is 546.
+It is achieved with:
+  1228742 = 2 x 557 x 1103
+TEST 13 END
+
+TEST 14 BEGIN
+$ python3 -c 'from quiz_4 import *; tri_numbers(16_543_210)'
+There are 4018679 trinumbers at most equal to 16543210.
+The largest one is 16543202, equal to 2 x 13 x 636277.
+
+The maximum gap in decompositions is 2027.
+It is achieved with:
+  16463306 = 2 x 2029 x 4057
+  16528234 = 2 x 2029 x 4073
+TEST 14 END
+
+TEST 15 BEGIN
+$ python3 -c 'from quiz_4 import *; tri_numbers(46_789_123)'
+There are 11215129 trinumbers at most equal to 46789123.
+The largest one is 46789117, equal to 17 x 43 x 64007.
+
+The maximum gap in decompositions is 3411.
+It is achieved with:
+  46601102 = 2 x 3413 x 6827
+  46614754 = 2 x 3413 x 6829
+  46642058 = 2 x 3413 x 6833
+  46696666 = 2 x 3413 x 6841
+TEST 15 END
+

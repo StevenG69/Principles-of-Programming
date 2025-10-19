@@ -1,0 +1,528 @@
+TEST 1 BEGIN
+$ echo 0 2 1 1 | python3 quiz_7.py
+Input an integer, two integers between 1 and 10,
+      and a number between 0 and 1: 0 2 1 1
+Here is the grid that has been generated:
+   -----------------------
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   -----------------------
+The longest special path starting from (2, 1) has a length of 42.
+Here it is:
+   -----------------------
+   |   ↗       ↗         |
+   | ↗   ↙   ↗   ↙   ↗   |
+   |   ↙   ↗   ↙   ↗   ↙ |
+   | ↙   ↗   ↙   ↗   ↙   |
+   |   ↗   ↙   ↗   ↙     |
+   |     ↙   ↗   ↙   ↗   |
+   |   ↙   ↗   ↙   ↗   ↙ |
+   | ↙   ↗   ↙   ↗   ↙   |
+   |   ↗   ↙   ↗   ↙   ↗ |
+   |         ↗       ↗   |
+   -----------------------
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 0 1 2 1 | python3 quiz_7.py
+Input an integer, two integers between 1 and 10,
+      and a number between 0 and 1: 0 1 2 1
+Here is the grid that has been generated:
+   -----------------------
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   -----------------------
+The longest special path starting from (1, 2) has a length of 41.
+Here it is:
+   -----------------------
+   |   ↗       ↗         |
+   |     ↙   ↗   ↙   ↗   |
+   |   ↙   ↗   ↙   ↗   ↙ |
+   | ↙   ↗   ↙   ↗   ↙   |
+   |   ↗   ↙   ↗   ↙     |
+   |     ↙   ↗   ↙   ↗   |
+   |   ↙   ↗   ↙   ↗   ↙ |
+   | ↙   ↗   ↙   ↗   ↙   |
+   |   ↗   ↙   ↗   ↙   ↗ |
+   |         ↗       ↗   |
+   -----------------------
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 345 3 4 0.2 | python3 quiz_7.py
+Input an integer, two integers between 1 and 10,
+      and a number between 0 and 1: 345 3 4 0.2
+Here is the grid that has been generated:
+   -----------------------
+   |   *   *     *       |
+   |   *                 |
+   |       *             |
+   |           *         |
+   |               *     |
+   |   *       *   *     |
+   |               *     |
+   |         * *         |
+   | *                   |
+   |               *     |
+   -----------------------
+The longest special path starting from (3, 4) has a length of 1.
+Here it is:
+   -----------------------
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   -----------------------
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 346 5 5 0.3 | python3 quiz_7.py
+Input an integer, two integers between 1 and 10,
+      and a number between 0 and 1: 346 5 5 0.3
+Here is the grid that has been generated:
+   -----------------------
+   |       *         * * |
+   |     *   *           |
+   | *           *       |
+   |       *     *     * |
+   |         *   *       |
+   |     *     *     *   |
+   |     *   *     *     |
+   | *                   |
+   |     *     *         |
+   |       * *   * *     |
+   -----------------------
+The longest special path starting from (5, 5) has a length of 3.
+Here it is:
+   -----------------------
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   |         ↗           |
+   |           ↙         |
+   |         ↙           |
+   |                     |
+   |                     |
+   |                     |
+   -----------------------
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 347 5 6 0.4 | python3 quiz_7.py
+Input an integer, two integers between 1 and 10,
+      and a number between 0 and 1: 347 5 6 0.4
+Here is the grid that has been generated:
+   -----------------------
+   | *           *   * * |
+   |     * * *           |
+   |         *       * * |
+   | *     *     *   * * |
+   |           *   * *   |
+   |       *   * *       |
+   |                 *   |
+   |       * *     *     |
+   | *   * * *   * * * * |
+   |   *       * * * * * |
+   -----------------------
+The longest special path starting from (5, 6) has a length of 4.
+Here it is:
+   -----------------------
+   |                     |
+   |                     |
+   |                     |
+   |             ↗       |
+   |           ↗   ↙     |
+   |             ↙       |
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   -----------------------
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 348 7 3 0.5 | python3 quiz_7.py
+Input an integer, two integers between 1 and 10,
+      and a number between 0 and 1: 348 7 3 0.5
+Here is the grid that has been generated:
+   -----------------------
+   |     * *   *       * |
+   | *   * *   * *   * * |
+   |   *                 |
+   |   * *   * *     *   |
+   |   * *   * *   * * * |
+   |       *   * * *     |
+   |     *   *     * *   |
+   |               * * * |
+   | * * *     * *     * |
+   | *               *   |
+   -----------------------
+The longest special path starting from (7, 3) has a length of 5.
+Here it is:
+   -----------------------
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   |         ↗           |
+   |       ↗   ↙         |
+   |     ↗   ↙           |
+   |                     |
+   |                     |
+   |                     |
+   -----------------------
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 349 1 2 0.6 | python3 quiz_7.py
+Input an integer, two integers between 1 and 10,
+      and a number between 0 and 1: 349 1 2 0.6
+Here is the grid that has been generated:
+   -----------------------
+   | * *   *   * * * * * |
+   | * * *     *   * * * |
+   | *   * *   *   * *   |
+   |   * * * *     * * * |
+   |   *   *   * *   * * |
+   |   * *   * * *   * * |
+   | * * * * * *   *     |
+   |         * * *     * |
+   | * * * *     *   *   |
+   | *   * * * * * *   * |
+   -----------------------
+The longest special path starting from (1, 2) has a length of 15.
+Here it is:
+   -----------------------
+   |   ↗                 |
+   |     ↙               |
+   |       ↗             |
+   |         ↙           |
+   |       ↙   ↗       ↗ |
+   |     ↙   ↗   ↙   ↗   |
+   |       ↗   ↙   ↗     |
+   |             ↗       |
+   |                     |
+   |                     |
+   -----------------------
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 350 8 1 0.7 | python3 quiz_7.py
+Input an integer, two integers between 1 and 10,
+      and a number between 0 and 1: 350 8 1 0.7
+Here is the grid that has been generated:
+   -----------------------
+   |     * * *     * *   |
+   |   * *   * *     * * |
+   | * * *   * * *   *   |
+   | * *     * *     * * |
+   |   * * * *   * *   * |
+   | * * *   * * * *   * |
+   | * *   * *   * *   * |
+   | * * *     *         |
+   |   *   * * * *   *   |
+   | *   * * * * * * * * |
+   -----------------------
+The longest special path starting from (8, 1) has a length of 11.
+Here it is:
+   -----------------------
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   |       ↗             |
+   |     ↗   ↙           |
+   |   ↗   ↙             |
+   | ↗   ↙               |
+   |   ↙   ↗             |
+   |     ↗   ↙           |
+   -----------------------
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 351 5 4 0.8 | python3 quiz_7.py
+Input an integer, two integers between 1 and 10,
+      and a number between 0 and 1: 351 5 4 0.8
+Here is the grid that has been generated:
+   -----------------------
+   |   * * *   * * * * * |
+   | * *   *   * *   * * |
+   | * * * * * * *   * * |
+   | * * *   *     * *   |
+   | * * * * * * *     * |
+   | * * * * * *     *   |
+   |   *   * * * * * * * |
+   | * * * *   * *   * * |
+   | *       * * * * * * |
+   | * * * *   * * *   * |
+   -----------------------
+The longest special path starting from (5, 4) has a length of 11.
+Here it is:
+   -----------------------
+   |                     |
+   |                     |
+   |                     |
+   |         ↗           |
+   |       ↗   ↙         |
+   |         ↙           |
+   |           ↗       ↗ |
+   |             ↙   ↗   |
+   |           ↙   ↗     |
+   |             ↗       |
+   -----------------------
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 352 7 3 0.8 | python3 quiz_7.py
+Input an integer, two integers between 1 and 10,
+      and a number between 0 and 1: 352 7 3 0.8
+Here is the grid that has been generated:
+   -----------------------
+   |   * *   *   * * * * |
+   | * * * * * * * * * * |
+   |   * * *   * *   *   |
+   | * * * * * *     * * |
+   | *   * *   * * *   * |
+   | *     * * *   * * * |
+   |   * * *     * * * * |
+   |   * * * * * * * *   |
+   |   * * * * * * * * * |
+   | * * * * * * *   * * |
+   -----------------------
+The longest special path starting from (7, 3) has a length of 12.
+Here it is:
+   -----------------------
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   |               ↗     |
+   |     ↗       ↗   ↙   |
+   |       ↙   ↗   ↙     |
+   |     ↙   ↗   ↙       |
+   |       ↗   ↙         |
+   -----------------------
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo 353 3 2 0.85 | python3 quiz_7.py
+Input an integer, two integers between 1 and 10,
+      and a number between 0 and 1: 353 3 2 0.85
+Here is the grid that has been generated:
+   -----------------------
+   | * * * * * * * * * * |
+   |   * * * * * * *     |
+   | * * * * * * *   * * |
+   | * * *   * * *   * * |
+   |   * * * * * * * *   |
+   | * *   * * * * * * * |
+   | *   * * * * * * * * |
+   | *   *   * * * *   * |
+   |   * * * * * * * *   |
+   | * * * * * * * * * * |
+   -----------------------
+The longest special path starting from (3, 2) has a length of 28.
+Here it is:
+   -----------------------
+   |       ↗             |
+   |     ↗   ↙           |
+   |   ↗   ↙   ↗         |
+   |     ↙   ↗   ↙       |
+   |       ↗   ↙   ↗     |
+   |         ↙   ↗   ↙   |
+   |       ↙   ↗   ↙     |
+   |     ↙   ↗   ↙       |
+   |   ↙   ↗   ↙   ↗     |
+   |     ↗       ↗   ↙   |
+   -----------------------
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo 354 4 2 0.8 | python3 quiz_7.py
+Input an integer, two integers between 1 and 10,
+      and a number between 0 and 1: 354 4 2 0.8
+Here is the grid that has been generated:
+   -----------------------
+   | * * * * * * * * * * |
+   | *   *   * * * * * * |
+   | * * * * *   * * * * |
+   | * * * * * * * * *   |
+   | * * * * * * * * *   |
+   | *   * * * * * * * * |
+   |   * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * *   * * * * * * * |
+   | *   * * * *   * *   |
+   -----------------------
+The longest special path starting from (4, 2) has a length of 29.
+Here it is:
+   -----------------------
+   |                 ↗   |
+   |               ↗   ↙ |
+   |     ↗       ↗   ↙   |
+   |   ↗   ↙   ↗   ↙     |
+   |     ↙   ↗   ↙   ↗   |
+   |       ↗   ↙   ↗   ↙ |
+   |         ↙   ↗   ↙   |
+   |       ↙   ↗   ↙   ↗ |
+   |         ↗   ↙   ↗   |
+   |               ↗     |
+   -----------------------
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo 355 7 2 0.7 | python3 quiz_7.py
+Input an integer, two integers between 1 and 10,
+      and a number between 0 and 1: 355 7 2 0.7
+Here is the grid that has been generated:
+   -----------------------
+   | * * * * * * *   *   |
+   | * *       *   *   * |
+   | * * * *   * * *   * |
+   | * *     * * * * *   |
+   | *     * *   * * * * |
+   | * * *   * * * * * * |
+   | * *       * * * * * |
+   | *   * * * *   *     |
+   | * * *     * *     * |
+   | *   *   * *   * * * |
+   -----------------------
+The longest special path starting from (7, 2) has a length of 11.
+Here it is:
+   -----------------------
+   |                     |
+   |                     |
+   |           ↗         |
+   |         ↗   ↙   ↗   |
+   |       ↗       ↗   ↙ |
+   |     ↗           ↙   |
+   |   ↗           ↙     |
+   |                     |
+   |                     |
+   |                     |
+   -----------------------
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo 356 4 2 0.65 | python3 quiz_7.py
+Input an integer, two integers between 1 and 10,
+      and a number between 0 and 1: 356 4 2 0.65
+Here is the grid that has been generated:
+   -----------------------
+   | * * * * * * * * *   |
+   | * * * * *     *   * |
+   |   * * *     * *   * |
+   | * * * *   *   *   * |
+   | *   * * *   * * *   |
+   | * * * * * * * *   * |
+   | * * *   * * *   *   |
+   |     *   *   * * * * |
+   |   * * * *   * *   * |
+   |   *   *   *   * * * |
+   -----------------------
+The longest special path starting from (4, 2) has a length of 21.
+Here it is:
+   -----------------------
+   |                     |
+   |                     |
+   |     ↗       ↗       |
+   |   ↗   ↙   ↗   ↙     |
+   |     ↙   ↗   ↙   ↗   |
+   |   ↙   ↗   ↙   ↗   ↙ |
+   |     ↗       ↗   ↙   |
+   |               ↙     |
+   |             ↙       |
+   |           ↙         |
+   -----------------------
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo 357 9 3 0.75 | python3 quiz_7.py
+Input an integer, two integers between 1 and 10,
+      and a number between 0 and 1: 357 9 3 0.75
+Here is the grid that has been generated:
+   -----------------------
+   | *   *   * * * * * * |
+   | * * * * * *   * * * |
+   | * * *   * * * *   * |
+   |     * * * *   *   * |
+   | * * * * * * *   *   |
+   | * * * * * *     * * |
+   |     *   * * * *   * |
+   | *     * * *   * * * |
+   | *   *   *   * * * * |
+   | *   * * * * *   * * |
+   -----------------------
+The longest special path starting from (9, 3) has a length of 12.
+Here it is:
+   -----------------------
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   |           ↗         |
+   |         ↗   ↙       |
+   |       ↗   ↙   ↗     |
+   |     ↗   ↙   ↗   ↙   |
+   |           ↗       ↗ |
+   -----------------------
+TEST 15 END
+
+TEST 16 BEGIN
+$ echo 358 10 1 0.95 | python3 quiz_7.py
+Input an integer, two integers between 1 and 10,
+      and a number between 0 and 1: 358 10 1 0.95
+Here is the grid that has been generated:
+   -----------------------
+   | * * * * * * * * * * |
+   | * * * * * * * * *   |
+   | * * * * * * * * * * |
+   | * * * * * * * *   * |
+   | * * *   *   * * * * |
+   | * * * * * * * * * * |
+   | *   *     * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   | * * * * * * * * * * |
+   -----------------------
+The longest special path starting from (10, 1) has a length of 14.
+Here it is:
+   -----------------------
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   |                     |
+   |                 ↗   |
+   |               ↗   ↙ |
+   |     ↗       ↗   ↙   |
+   |   ↗   ↙   ↗   ↙   ↗ |
+   | ↗       ↗       ↗   |
+   -----------------------
+TEST 16 END
+

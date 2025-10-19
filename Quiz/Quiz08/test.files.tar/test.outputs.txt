@@ -1,0 +1,112 @@
+TEST 1 BEGIN
+$ python3 -c "from quiz_8 import *; block = Building(123, 'A 2 B 1'); print(repr(block))"
+Building(123, 'A 2 B 1')
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 -c "from quiz_8 import *; block = Building(4, 'e'); print(block)"
+Building with 5 floors accessible from entries: e
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 -c "from quiz_8 import *; Building(1, 'A B C D'); Building(1, 'A B C D'); Building(10, 'A B'); Building(10, 'A B C'); print(Building.number_created)"
+4
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 -c "from quiz_8 import *; the_horizons = Building(8, '1 2 3'); Building(8, '1 2 3').go_to_floor_from_entry(9, '1', 1)"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from quiz_8 import *; the_horizons = Building(8, '1 2 3'); Building(8, '1 2 3').go_to_floor_from_entry(9, '1', 1)
+                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/ericmartin/Documents/COMP9021/Quizzes/Quiz 8/Submissions/hongyin.zhou@student.unsw.edu.au/quiz_8.py", line 72, in go_to_floor_from_entry
+    raise BuildingError('That makes no sense!')
+quiz_8.BuildingError: That makes no sense!
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 -c "from quiz_8 import *; the_horizons = Building(8, '1 2 3'); Building(8, '1 2 3').go_to_floor_from_entry(6, '1', -1)"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from quiz_8 import *; the_horizons = Building(8, '1 2 3'); Building(8, '1 2 3').go_to_floor_from_entry(6, '1', -1)
+                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/ericmartin/Documents/COMP9021/Quizzes/Quiz 8/Submissions/hongyin.zhou@student.unsw.edu.au/quiz_8.py", line 72, in go_to_floor_from_entry
+    raise BuildingError('That makes no sense!')
+quiz_8.BuildingError: That makes no sense!
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 -c "from quiz_8 import *; block_1 = Building(13, 'A B C'); block_2 = Building(17, 'C D E'); block_1.go_to_floor_from_entry(2, 'B', 2); block_2.go_to_floor_from_entry(10, 'D', 1); block_2.go_to_floor_from_entry(7, 'E', 10); block_2.go_to_floor_from_entry(0, 'C', 3); block_1.go_to_floor_from_entry(2, 'B', 5); block_1.go_to_floor_from_entry(6, 'C', 7); compare_occupancies(block_1, block_2)"
+Wait, lift has to go down 2 floors...
+There is the same number of occupants in both buildings.
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 -c "from quiz_8 import *; block_1 = Building(9, '1 3 2'); block_2 = Building(14, '2 3 4'); block_1.go_to_floor_from_entry(6, '2', 5); block_2.go_to_floor_from_entry(5, '4', 7); block_2.go_to_floor_from_entry(13, '2', 8); block_2.leave_floor_from_entry(5, '4', 2); block_1.leave_floor_from_entry(6, '2', 1); block_1.go_to_floor_from_entry(6, '2', 2); block_2.leave_floor_from_entry(13, '2', 2); block_1.go_to_floor_from_entry(1, '1', 4); compare_occupancies(block_1, block_2)"
+There are more occupants in the second building.
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 -c "from quiz_8 import *; block_1 = Building(9, '1 3 2'); block_2 = Building(14, '2 3 4'); block_2.go_to_floor_from_entry(4, '3', 11); block_1.go_to_floor_from_entry(2, '1', 10); block_2.go_to_floor_from_entry(10, '2', 5); block_2.leave_floor_from_entry(4, '3', 5); block_1.leave_floor_from_entry(2, '1', 5); block_1.go_to_floor_from_entry(8, '3', 5); block_1.go_to_floor_from_entry(7, '1', 5); block_2.leave_floor_from_entry(4, '3', 5); compare_occupancies(block_1, block_2)"
+Wait, lift has to go up 4 floors...
+There are more occupants in the first building.
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 -c "from quiz_8 import *; block = Building(50, 'E F G H I'); block.go_to_floor_from_entry(0, 'G', 10); block.go_to_floor_from_entry(3, 'H', 4); block.leave_floor_from_entry(0, 'G', 5); block.leave_floor_from_entry(3, 'H', 2); block.leave_floor_from_entry(3, 'H', 1)"
+Wait, lift has to go up 3 floors...
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 -c "from quiz_8 import *; block = Building(50, 'E F G H I'); block.go_to_floor_from_entry(3, 'H', 4); block.go_to_floor_from_entry(0, 'H', 10); block.leave_floor_from_entry(3, 'H', 5)"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from quiz_8 import *; block = Building(50, 'E F G H I'); block.go_to_floor_from_entry(3, 'H', 4); block.go_to_floor_from_entry(0, 'H', 10); block.leave_floor_from_entry(3, 'H', 5)
+                                                                                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/ericmartin/Documents/COMP9021/Quizzes/Quiz 8/Submissions/hongyin.zhou@student.unsw.edu.au/quiz_8.py", line 83, in leave_floor_from_entry
+    raise BuildingError("There aren't that many people on that floor!")
+quiz_8.BuildingError: There aren't that many people on that floor!
+Wait, lift has to go down 3 floors...
+TEST 10 END
+
+TEST 11 BEGIN
+$ python3 -c "from quiz_8 import *; block = Building(50, 'E F G H I'); block.go_to_floor_from_entry(0, 'G', 10); block.go_to_floor_from_entry(3, 'H', 4); block.leave_floor_from_entry(0, 'G', 5); block.leave_floor_from_entry(3, 'H', 2); block.leave_floor_from_entry(3, 'H', 1)"
+Wait, lift has to go up 3 floors...
+TEST 11 END
+
+TEST 12 BEGIN
+$ python3 -c "from quiz_8 import *; block = Building(50, 'E F G H I'); block.go_to_floor_from_entry(7, 'I', 10); block.go_to_floor_from_entry(6, 'F', 10); block.go_to_floor_from_entry(5, 'I', 10); block.leave_floor_from_entry(6, 'F', 2); block.leave_floor_from_entry(7, 'I', 3); block.leave_floor_from_entry(6, 'F', 1); block.leave_floor_from_entry(7, 'I', 3)"
+Wait, lift has to go down 7 floors...
+Wait, lift has to go up 2 floors...
+Wait, lift has to go up 6 floors...
+Wait, lift has to go up 7 floors...
+TEST 12 END
+
+TEST 13 BEGIN
+$ python3 -c "from quiz_8 import *; block = Building(50, 'E F G H I'); block.go_to_floor_from_entry(3, 'E', 35); block.go_to_floor_from_entry(13, 'E', 25); block.leave_floor_from_entry(3, 'E', 10); block.leave_floor_from_entry(13, 'E', 10); block.leave_floor_from_entry(3, 'E', 6)"
+Wait, lift has to go down 3 floors...
+Wait, lift has to go down 10 floors...
+Wait, lift has to go up 13 floors...
+Wait, lift has to go up 3 floors...
+TEST 13 END
+
+TEST 14 BEGIN
+$ python3 -c "from quiz_8 import *; block = Building(50, 'E F G H I'); block.go_to_floor_from_entry(10, 'G', 15); block.go_to_floor_from_entry(6, 'G', 17); block.go_to_floor_from_entry(9, 'G', 16); block.go_to_floor_from_entry(3, 'G', 9); block.leave_floor_from_entry(6, 'G', 2); block.leave_floor_from_entry(3, 'G', 2); block.leave_floor_from_entry(9, 'G', 2)"
+Wait, lift has to go down 10 floors...
+Wait, lift has to go down 6 floors...
+Wait, lift has to go down 9 floors...
+Wait, lift has to go up 3 floors...
+Wait, lift has to go up 3 floors...
+Wait, lift has to go up 9 floors...
+TEST 14 END
+
+TEST 15 BEGIN
+$ python3 -c "from quiz_8 import *; block = Building(50, 'E F G H I'); block.go_to_floor_from_entry(7, 'E', 20); block.go_to_floor_from_entry(2, 'F', 30); block.go_to_floor_from_entry(4, 'G', 10); block.go_to_floor_from_entry(1, 'F', 5); block.go_to_floor_from_entry(3, 'F', 15); block.leave_floor_from_entry(7, 'E', 5); block.go_to_floor_from_entry(7, 'G', 6); block.go_to_floor_from_entry(7, 'G', 4); block.leave_floor_from_entry(4, 'G', 1); block.go_to_floor_from_entry(26, 'E', 20); block.leave_floor_from_entry(1, 'F', 1)"
+Wait, lift has to go down 2 floors...
+Wait, lift has to go down 1 floor...
+Wait, lift has to go down 4 floors...
+Wait, lift has to go down 7 floors...
+Wait, lift has to go down 3 floors...
+Wait, lift has to go down 2 floors...
+TEST 15 END
+
